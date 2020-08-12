@@ -1,0 +1,57 @@
+body {
+    font: normal 300 18px "Roboto", sans-serif;
+}
+
+#bulbTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left:30px}
+
+#bulbTable td, #bulbTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#bulbTable tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#bulbTable tr:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+#bulbTable tr:hover {
+    background-color: #a4b2bb;
+}
+
+#bulbTable th {
+    background-color: #a4b2bb;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+p {
+    color:#FFFFFF;
+    left: 30px;
+    text-indent: 3%;
+}
+
+#bulbId {
+    margin-left:33px
+}
+
+#bulbId {
+    margin-left:50px
+    background: transparent;
+    width: 350px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 5;
+    border-radius: 20;
+    height: 34px;
+    -webkit-appearance: none;
+}

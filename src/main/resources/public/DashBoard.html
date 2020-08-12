@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>myDashBoard</title>
+    <link href="/css/Main.css" rel="stylesheet"/>
+    <link href="/css/Menu.css" rel="stylesheet"/>
+    <link href="/css/DashBoard.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js-source/Main.js"></script>
+    <script type="text/javascript" src="js-source/Clock.js"></script>
+    <script type="text/javascript" src="js-source/DashBoard.js"></script>
+</head>
+
+<body>
+
+<!-- start menu balk-->
+<div id="menu-nav">
+    <div id="navigation-bar">
+        <ul id="nav">
+            <li><a href="/"><span class id="Home">Home</span></a></li>
+            <li><a href="/dashboard.html"><span class id="Dashboard">Dashboard</span></a></li>
+            <li><a href="#"><span class id="Sprinkler"></span></a></li>
+            <li><a href="#"><span class id="Login"></span></a></li>
+            <li><a href="#">
+                <div class="digital-clock">00:00:00</div>
+            </a></li>
+        </ul>
+    </div>
+</div>
+<!-- end menu balk-->
+
+<img src="img/img_avatar2.png" alt="Avatar" class="avatar" align="left">
+<body onload="greet()">
+</body>
+<p id="hallo" class="name"></p>
+
+<p id="tekst">Choose your room to check the actual status:</p>
+<select id="bulbId">
+</select>
+<br>
+<br>
+<br>
+<table id="bulbTable">
+    <tr>
+        <th>What do we get?</th>
+        <th>Actual Status</th>
+    </tr>
+
+    <tr>
+        <td>Id</td>
+        <td id="id"></td>
+    </tr>
+
+    <tr>
+        <td>Location</td>
+        <td id="location"></td>
+    </tr>
+
+    <tr>
+        <td>Light (on = true, off = false)</td>
+        <td id="on"></td>
+    </tr>
+
+    <tr>
+        <td>Color</td>
+        <td id="colorName"></td>
+    </tr>
+
+    <tr>
+        <td>Position X</td>
+        <td id="xPosition"></td>
+    </tr>
+
+    <tr>
+        <td>Position Y</td>
+        <td id="yPosition"></td>
+    </tr>
+
+    <tr>
+        <td>Dimmer (yes = true / no = false</td>
+        <td id="dimmable"></td>
+    </tr>
+
+    <tr>
+        <td>Intensity</td>
+        <td id="intensity"></td>
+    </tr>
+</table>
+
+<br>
+<br>
+<!--start wheater widget-->
+<div id="weather"><a class="weatherwidget-io" href="https://forecast7.com/nl/51d195d99/roermond/" data-label_1=
+        "Actueel weer in" data-label_2="Roermond" data-icons="Climacons Animated" data-days="5" data-theme=
+                             "mountains" >Roermond Weer</a></div>
+<!--end wheater widget-->
+
+</body>
+</html>

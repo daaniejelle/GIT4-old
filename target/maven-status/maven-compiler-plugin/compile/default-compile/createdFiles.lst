@@ -1,0 +1,12 @@
+com\example\restservice\Model\Tool.class
+com\example\restservice\Model\LightSensor.class
+com\example\restservice\BulbController.class
+com\example\restservice\Model\Controller.class
+com\example\restservice\RestServiceApplication.class
+com\example\restservice\DAL\PostgreSQLJDBC.class
+com\example\restservice\Model\Sprinkler.class
+com\example\restservice\Model\MovementSensor.class
+com\example\restservice\Model\Bulb.class
+com\example\restservice\Model\HumanitySensor.class
+com\example\restservice\Model\Automate.class
+com\example\restservice\Model\CheckLight.class
